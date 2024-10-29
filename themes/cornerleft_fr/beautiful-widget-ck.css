@@ -1,0 +1,54 @@
+.beautifulck.cornerleft_fr {
+	position: relative;
+	z-index: 10;
+}
+
+.beautifulck.cornerleft_fr .beautifulck_title * {
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+	background: none;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.beautifulck.cornerleft_fr .beautifulck_title {
+	margin-left: 40px;
+	position: absolute;
+}
+
+.beautifulck.cornerleft_fr:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	z-index: 12;
+	height: 71px;
+	width: 61px;
+	left: -2px;
+	top: -4px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.beautifulck.cornerleft_fr.pink:before {background-image: url(images/cornerleft_fr_pink.png);}
+.beautifulck.cornerleft_fr.red:before {background-image: url(images/cornerleft_fr_red.png);}
+.beautifulck.cornerleft_fr.orange:before {background-image: url(images/cornerleft_fr_orange.png);}
+.beautifulck.cornerleft_fr.yellow:before {background-image: url(images/cornerleft_fr_yellow.png);}
+.beautifulck.cornerleft_fr.green:before {background-image: url(images/cornerleft_fr_green.png);}
+.beautifulck.cornerleft_fr.blue:before {background-image: url(images/cornerleft_fr_blue.png);}
+.beautifulck.cornerleft_fr.grey:before {background-image: url(images/cornerleft_fr_grey.png);}
+
+.beautifulck.cornerleft_fr img.beautifulckicon {
+	/*position: relative;*/
+	z-index: 15;
+	float: left;
+	margin: 7px;
+}
+
+.beautifulck.cornerleft_fr .beautifulck_titletext {
+	/*position: absolute;*/
+	z-index: 15;
+	float: left;
+	margin: 5px 0 0 0;
+}

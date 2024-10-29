@@ -1,0 +1,54 @@
+.beautifulck.cornerright_en {
+	position: relative;
+	z-index: 10;
+}
+
+.beautifulck.cornerright_en .beautifulck_title * {
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+	background: none;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.beautifulck.cornerright_en .beautifulck_title {
+	margin-right: 20px;
+	position: absolute;
+}
+
+.beautifulck.cornerright_en:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	z-index: 12;
+	height: 61px;
+	width: 71px;
+	right: -4px;
+	top: -2px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.beautifulck.cornerright_en.pink:after {background-image: url(images/cornerright_en_pink.png);}
+.beautifulck.cornerright_en.red:after {background-image: url(images/cornerright_en_red.png);}
+.beautifulck.cornerright_en.orange:after {background-image: url(images/cornerright_en_orange.png);}
+.beautifulck.cornerright_en.yellow:after {background-image: url(images/cornerright_en_yellow.png);}
+.beautifulck.cornerright_en.green:after {background-image: url(images/cornerright_en_green.png);}
+.beautifulck.cornerright_en.blue:after {background-image: url(images/cornerright_en_blue.png);}
+.beautifulck.cornerright_en.grey:after {background-image: url(images/cornerright_en_grey.png);}
+
+.beautifulck.cornerright_en img.beautifulckicon {
+	/*position: relative;*/
+	z-index: 15;
+	float: left;
+	margin: 7px;
+}
+
+.beautifulck.cornerright_en .beautifulck_titletext {
+	/*position: absolute;*/
+	z-index: 15;
+	float: left;
+	margin: 5px 0 0 0;
+}

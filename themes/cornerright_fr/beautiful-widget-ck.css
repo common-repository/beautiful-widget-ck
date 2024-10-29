@@ -1,0 +1,54 @@
+.beautifulck.cornerright_fr {
+	position: relative;
+	z-index: 10;
+}
+
+.beautifulck.cornerright_fr .beautifulck_title * {
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+	background: none;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.beautifulck.cornerright_fr .beautifulck_title {
+	margin-right: 20px;
+	position: absolute;
+}
+
+.beautifulck.cornerright_fr:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	z-index: 12;
+	height: 61px;
+	width: 71px;
+	right: -4px;
+	top: -2px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.beautifulck.cornerright_fr.pink:after {background-image: url(images/cornerright_fr_pink.png);}
+.beautifulck.cornerright_fr.red:after {background-image: url(images/cornerright_fr_red.png);}
+.beautifulck.cornerright_fr.orange:after {background-image: url(images/cornerright_fr_orange.png);}
+.beautifulck.cornerright_fr.yellow:after {background-image: url(images/cornerright_fr_yellow.png);}
+.beautifulck.cornerright_fr.green:after {background-image: url(images/cornerright_fr_green.png);}
+.beautifulck.cornerright_fr.blue:after {background-image: url(images/cornerright_fr_blue.png);}
+.beautifulck.cornerright_fr.grey:after {background-image: url(images/cornerright_fr_grey.png);}
+
+.beautifulck.cornerright_fr img.beautifulckicon {
+	/*position: relative;*/
+	z-index: 15;
+	float: left;
+	margin: 7px;
+}
+
+.beautifulck.cornerright_fr .beautifulck_titletext {
+	/*position: absolute;*/
+	z-index: 15;
+	float: left;
+	margin: 5px 0 0 0;
+}

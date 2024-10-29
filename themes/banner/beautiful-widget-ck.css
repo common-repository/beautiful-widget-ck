@@ -1,0 +1,77 @@
+.beautifulck.banner {
+	position: relative;
+	z-index: 10;
+}
+
+.beautifulck.banner .beautifulck_title * {
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+	background: none;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.beautifulck.banner .beautifulck_title:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	z-index: 12;
+	height: 45px;
+	width: 100%;
+	max-width: 193px;
+	left: -12px;
+	top: -7px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.beautifulck.banner .beautifulck_title:after {
+	content: " ";
+	display: block;
+	height: 45px;
+	width: 17px;
+	position: absolute;
+	z-index: 11;
+	right: -13px;
+	top: -7px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.beautifulck.banner .beautifulck_title {
+	height: 31px;
+	position: relative;
+}
+
+.beautifulck.banner.pink .beautifulck_title { background: #bf0067; }
+.beautifulck.banner.red .beautifulck_title { background: #CD0000; }
+.beautifulck.banner.orange .beautifulck_title { background: #FB7A00; }
+.beautifulck.banner.yellow .beautifulck_title { background: #F0A20E; }
+.beautifulck.banner.green .beautifulck_title { background: #7BA915; }
+.beautifulck.banner.blue .beautifulck_title { background: #0566ad; }
+.beautifulck.banner.grey .beautifulck_title { background: #696969; }
+
+
+.beautifulck.banner.pink .beautifulck_title:before, .beautifulck.banner.pink .beautifulck_title:after {background-image: url(images/banner_pink.png);}
+.beautifulck.banner.red .beautifulck_title:before, .beautifulck.banner.red .beautifulck_title:after {background-image: url(images/banner_red.png);}
+.beautifulck.banner.orange .beautifulck_title:before, .beautifulck.banner.orange .beautifulck_title:after {background-image: url(images/banner_orange.png);}
+.beautifulck.banner.yellow .beautifulck_title:before, .beautifulck.banner.yellow .beautifulck_title:after {background-image: url(images/banner_yellow.png);}
+.beautifulck.banner.green .beautifulck_title:before, .beautifulck.banner.green .beautifulck_title:after {background-image: url(images/banner_green.png);}
+.beautifulck.banner.blue .beautifulck_title:before, .beautifulck.banner.blue .beautifulck_title:after {background-image: url(images/banner_blue.png);}
+.beautifulck.banner.grey .beautifulck_title:before, .beautifulck.banner.grey .beautifulck_title:after {background-image: url(images/banner_grey.png);}
+
+.beautifulck.banner img.beautifulckicon {
+	position: relative;
+	z-index: 15;
+	float: left;
+	margin: 7px;
+}
+
+.beautifulck.banner .beautifulck_titletext {
+	position: absolute;
+	z-index: 15;
+	float: left;
+	margin: 5px 0 0 30px;
+}

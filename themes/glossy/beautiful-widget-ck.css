@@ -1,0 +1,77 @@
+.beautifulck.glossy {
+	position: relative;
+	z-index: 10;
+}
+
+.beautifulck.glossy .beautifulck_title * {
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+	background: none;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.beautifulck.glossy .beautifulck_title:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	z-index: 12;
+	height: 47px;
+	width: 100%;
+	max-width: 106px;
+	left: -12px;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.beautifulck.glossy .beautifulck_title:after {
+	content: " ";
+	display: block;
+	height: 47px;
+	width: 57px;
+	position: absolute;
+	z-index: 11;
+	right: -25px;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.beautifulck.glossy .beautifulck_title {
+	height: 47px;
+	position: relative;
+}
+
+.beautifulck.glossy.pink .beautifulck_title { background: url(images/glossy_pink_center.png) left top repeat-x; }
+.beautifulck.glossy.red .beautifulck_title { background: url(images/glossy_red_center.png) left top repeat-x; }
+.beautifulck.glossy.orange .beautifulck_title { background: url(images/glossy_orange_center.png) left top repeat-x; }
+.beautifulck.glossy.yellow .beautifulck_title { background: url(images/glossy_yellow_center.png) left top repeat-x; }
+.beautifulck.glossy.green .beautifulck_title { background: url(images/glossy_green_center.png) left top repeat-x; }
+.beautifulck.glossy.blue .beautifulck_title { background: url(images/glossy_blue_center.png) left top repeat-x; }
+.beautifulck.glossy.grey .beautifulck_title { background: url(images/glossy_grey_center.png) left top repeat-x; }
+
+
+.beautifulck.glossy.pink .beautifulck_title:before, .beautifulck.glossy.pink .beautifulck_title:after {background-image: url(images/glossy_pink.png);}
+.beautifulck.glossy.red .beautifulck_title:before, .beautifulck.glossy.red .beautifulck_title:after {background-image: url(images/glossy_red.png);}
+.beautifulck.glossy.orange .beautifulck_title:before, .beautifulck.glossy.orange .beautifulck_title:after {background-image: url(images/glossy_orange.png);}
+.beautifulck.glossy.yellow .beautifulck_title:before, .beautifulck.glossy.yellow .beautifulck_title:after {background-image: url(images/glossy_yellow.png);}
+.beautifulck.glossy.green .beautifulck_title:before, .beautifulck.glossy.green .beautifulck_title:after {background-image: url(images/glossy_green.png);}
+.beautifulck.glossy.blue .beautifulck_title:before, .beautifulck.glossy.blue .beautifulck_title:after {background-image: url(images/glossy_blue.png);}
+.beautifulck.glossy.grey .beautifulck_title:before, .beautifulck.glossy.grey .beautifulck_title:after {background-image: url(images/glossy_grey.png);}
+
+.beautifulck.glossy img.beautifulckicon {
+	position: relative;
+	z-index: 15;
+	float: left;
+	margin: 12px 7px 7px 7px;
+}
+
+.beautifulck.glossy .beautifulck_titletext {
+	position: absolute;
+	z-index: 15;
+	float: left;
+	margin: 10px 0 0 30px;
+}

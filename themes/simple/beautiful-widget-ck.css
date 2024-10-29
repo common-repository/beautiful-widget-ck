@@ -1,0 +1,90 @@
+.beautifulck.simple {
+	position: relative;
+	z-index: 10;
+}
+
+.beautifulck.simple .beautifulck_title * {
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+	background: none;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.beautifulck.simple .beautifulck_title:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	z-index: 12;
+	width: 0px;
+	height: 0px;
+	top: 40px;
+	border-style: solid;
+	border-width: 0 10px 10px 0;
+	border-color: transparent #333 transparent transparent;
+}
+
+.beautifulck.simple .beautifulck_title {
+	height: 40px;
+	position: relative;
+	left: -10px;
+}
+
+.beautifulck.simple.pink .beautifulck_title {background: #e144d6;}
+.beautifulck.simple.red .beautifulck_title {background: #bf4f4f;}
+.beautifulck.simple.orange .beautifulck_title {background: #eaa024;}
+.beautifulck.simple.yellow .beautifulck_title {background: #e3df2b;}
+.beautifulck.simple.green .beautifulck_title {background: #62b25f;}
+.beautifulck.simple.blue .beautifulck_title {background: #5d70b1;}
+.beautifulck.simple.grey .beautifulck_title {background: #646464;}
+
+.beautifulck.simple img.beautifulckicon {
+	position: relative;
+	z-index: 15;
+	float: left;
+	margin: 12px 7px 7px 7px;
+}
+
+.beautifulck.simple .beautifulck_titletext {
+	position: absolute;
+	z-index: 15;
+	float: left;
+	margin: 10px 0 0 30px;
+}
+
+/*
+.beautifulck.simple img.beautifulckbgicon {
+	position: absolute;
+	z-index: 105;
+	top: 15px;
+	left: -5px;
+}
+
+.beautifulck.simple .beautifulckbgcentercolor {
+	position: relative;
+	z-index: 101;
+	height: 40px;
+	top: 5px;
+	left: -15px;
+	margin: 0;
+}
+
+.beautifulck.simple .beautifulckbgleft {
+	position: absolute;
+	z-index: 102;
+	height: 4px;
+	width: 8px;
+	top: 45px;
+	left: -15px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(images/simple_ombre.png);
+}
+
+.beautifulck.simple h3 {
+	position: absolute;
+	z-index: 103;
+	border: none !important;
+}*/

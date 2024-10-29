@@ -1,0 +1,40 @@
+.ckwait_mini {
+	background-image: url('../images/ajax-loader.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 16px;
+	min-width: 16px;
+}
+
+.ckwait_black {
+	background-image: url('../images/ajax-loader-black-bg.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 16px;
+	min-width: 16px;
+}
+
+#ckajaxoptionsstyles {
+	height: 16px;
+}
+
+#ckajaxoptions .suggestionthumb {
+	float: left;
+	margin: 5px;
+}
+
+#ckajaxoptions .suggestionthumbparams {
+	display: none !important;
+}
+
+#ckajaxoptions_suggestions .suggestionthumb {
+	margin: 0;
+	padding: 3px;
+	border: 1px solid transparent;
+}
+
+#ckajaxoptions_suggestions .suggestionthumb:hover {
+	border: 1px solid #3399ff;
+	cursor: pointer;
+}
+
